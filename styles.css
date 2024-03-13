@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+nav {
+    width: 1440px;
+    height: 156px;
+    display: flex;
+
+}
+#logo {
+    position: absolute;
+    width: 246px;
+    height: 101.76px;
+    padding: 0px 20px 0px 20px;
+    top: 26.12px;
+    left: 70px
+}
+#food {
+    width: 1440px;
+    height: 619px;
+}
+#nav-buttons {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 53px;
+    left: 870px
+}
+#nav-buttons > div {
+    padding-left: 77px;
+}
+#home {
+    color: #fa4a0c;
+}
+#mob1 {
+    width: 499px;
+    height: 586px;
+    position: absolute;
+    top: 610px;
+    left: 446px;
+    background: transparent;
+}
+#mob2 {
+    width: 485px;
+    height: 531px;
+    position: absolute;
+    top: 719px;
+    left: 709px;
+    background: transparent;
+}
+#mobs {
+    width: 548px;
+    height: 640px;
+    top: 610px;
+    left: 446px;
+}
+#text-content {
+    width: 1005px;
+    height: 326px;
+    position: absolute;
+    top: 172px;
+    left: 217.5px;
+    background: transparent;
+}
+#l1 {
+    background: none;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    color : #F6F6F6;
+    position: relative;
+    top: 30px;
+}
+#l2 {
+    background: transparent;
+    font-size: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 700;
+    color : #ffffff;
+    position: relative;
+    top: 60px;
+}
+#l3 {
+    background: transparent;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color : #F6F6F6;
+    position: relative;
+    top: 140px;
+}
+#text-content > div {
+    background: transparent;
+    text-align: center;
+}
+#buttons > div {
+    position: relative;
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    padding: 16px 0px 16px 0px;
+}
+#playstore {
+    background-color: #FA4A0C;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+#app-store {
+    background: none;
+    border: 1px solid #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+#line {
+    width: 884px;
+    border: 3px solid #E4E4E4;
+    margin-left: 300px;
+    margin-right: auto;
+}
+#section1 {
+    width: 302px;
+    height: 525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px auto;
+    position: relative;
+    left: 200px;
+}
+#head {
+    margin: 20px auto;
+    position: relative;
+    left: 560px;
+    font-weight: 600;
+    font-size: 44px;
+}
+#section1text {
+    text-align: center;
+    position: relative;
+    left: 300px;
+    top: 150px
+}
